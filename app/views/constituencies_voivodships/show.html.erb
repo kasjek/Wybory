@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Constituency:</strong>
+  <%= @constituencies_voivodship.constituency_id %>
+</p>
+
+<p>
+  <strong>Voivodship:</strong>
+  <%= @constituencies_voivodship.voivodship_id %>
+</p>
+
+<%= link_to 'Edit', edit_constituencies_voivodship_path(@constituencies_voivodship) %> |
+<%= link_to 'Back', constituencies_voivodships_path %>
